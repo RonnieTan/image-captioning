@@ -37,7 +37,7 @@ export default function Home() {
             <div className={styles["content-container"]} style={{ width: contentWidth }}>
                 <div className={styles["image-container"]} style={{ width: imageWidth }}>
                     <Image
-                        src="/sensory-feedback/uoft_logo.webp"
+                        src="/image-captioning/uoft_logo.webp"
                         alt="UofT Logo"
                         className={styles["image"]}
                         layout="fill"
@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
                 <div>
                     <iframe
-                        src="https://ronniet-sensory-feedback-system.hf.space/?__theme=dark"
+                        src="https://ronniet-imagecaptioning.hf.space/?__theme=dark"
                         frameBorder="0"
                         width={gradioWidth}
                         height="450"
